@@ -1,0 +1,70 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.f83b92cb2808c1bd917d.js",
+        "/polyfills.be0c7c81a3941d67cd90.js",
+        "/runtime.ec2944dd8b20ec099bf3.js",
+        "/styles.627c06c4b45e9a51a9b1.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/Countries.json",
+        "/assets/Currencies.json",
+        "/assets/angular-128.png",
+        "/assets/angular-152.png",
+        "/assets/angular-256.png",
+        "/assets/angular-512.png"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/materialicons\\/(?:.+\\/)?[^/]*\\.woff2",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/Countries.json": "ba080a123c14db3698d2b99473518f7e827a6370",
+    "/assets/Currencies.json": "ea17cc611c77fec6cde51ed5d12efaab576e0ed6",
+    "/assets/angular-128.png": "423e4b2ea4d1f653dbe54845edbb9b49a0ad39b6",
+    "/assets/angular-152.png": "4319a5400b53867f92a846e77aed7a89397d7239",
+    "/assets/angular-256.png": "653baf8883e54a90c61e4bbcecb82b8545705a99",
+    "/assets/angular-512.png": "9620c8af010dbe959194059d9c25f2533bf14971",
+    "/favicon.ico": "d9b1f9d958a640c8f2e7a652b5fca8c9b64e613f",
+    "/index.html": "ee81504bbeec8410dddfd381eb7e16e7d77051d3",
+    "/main.f83b92cb2808c1bd917d.js": "7cc53d463110eadabf62d46016811dddbbf00d75",
+    "/polyfills.be0c7c81a3941d67cd90.js": "1c29f897fd428ee45c7408a8e73fca68a15530f1",
+    "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/styles.627c06c4b45e9a51a9b1.css": "3c4b5677aac960679c935b6ce908ab61020744b1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
